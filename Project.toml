@@ -1,6 +1,6 @@
 name = "TOGCreateServer"
 uuid = "cc049f75-0394-46cc-811c-179be433f178"
-version = "2.0.0"
+version = "3.0.0"
 authors = ["1m1 <imi@1m1.io>"]
 
 [deps]

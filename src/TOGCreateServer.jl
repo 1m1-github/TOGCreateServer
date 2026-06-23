@@ -14,7 +14,7 @@ function sleep()
     TOGZMQAPIServer.sleep(SOCKET[])
 end
 function awaken(;socketlocation, ω)
-    SOCKET[], TASK[] = TOGZMQAPIServer.awaken(socketlocation, Dict(
+    SOCKET[], TASK[] = TOGZMQAPIServer.awaken(socketlocation=socketlocation, functions=Dict(
         :create => create(ω),
     ))
 end
